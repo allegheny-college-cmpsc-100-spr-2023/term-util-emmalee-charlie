@@ -124,7 +124,7 @@ class Helper:
             #
             if file_name.lower() == "q": 
                 # allowes user to quit cliv3 while in code review mode 
-                self.chat
+                self.chat()
                 break
 
     def chat(self) -> None:
